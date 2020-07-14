@@ -1,0 +1,74 @@
+.quick_menu{
+    height:100px;
+    background-color:#ffffff;
+}
+.quick_menu>div{
+    width:95px;
+    height:100px;
+    margin-left:20px;
+}
+.quick_menu img{
+    margin-top:20px;
+}
+.quick_menu h2{
+    text-align:center;
+}
+.quick_menu h2 a{
+    font-size:12px;
+    color: #666666;
+}
+.service{
+    background-color:#ffffff;
+}
+.service>div{
+    position:relative;
+}
+.svc01,.svc02{
+    margin-bottom:5px;
+}
+    /* 이미지 내맘대로 움직이고 싶어. 범위>relative, 움직인다>absolute =>다음 좌표 찍으면 됨 */
+.over_txt{
+    position:absolute;
+    left:20px;
+    top:30px;
+}
+.svc02>.over_txt,.svc03>.over_txt{
+    top:20px;
+}
+.svc_tit p{
+    font-size:30px;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+.svc_txt p{
+    font-size:18px;
+    line-height:24px;
+    color:#ffffff;
+}
+.notice{
+    height:100px;
+    padding:0 20px;
+    background-color:#ffffff;
+}
+.fst_tit{
+    padding-top:17.5px;
+    position:relative;
+}
+.tit_left{
+    font-weight:bold;
+    font-size:14px;
+    color:#333333;
+    padding-right:10px;
+}
+.tit_right>a{
+    font-weight:bold;
+    font-size: 14px;
+    color:#b5121b;
+}
+.snd_txt{
+    padding-top:22px;
+}
+.txt_left>a,.txt_right>a{
+    font-size:14px;
+    color:#999999;
+}

@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    border:none;
+    padding:0;
+}
+img{
+    vertical-align:bottom;
+}
+a{
+    text-decoration:none;
+}
+ul,li,ol{
+    list-style:none;
+}
+.ft_l{
+    float: left;
+}
+.ft_r{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.en{
+    font-family:'roboto';
+}
